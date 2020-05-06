@@ -1,0 +1,4 @@
+-n cert-manager --all
+-n istio-system --all
+-n knative-serving --all
+-n kubeflow --all

@@ -1,0 +1,11 @@
+-n istio-system istio-ingressgateway-sds
+-n kube-system cert-manager-cainjector:leaderelection
+-n kube-system cert-manager:leaderelection
+-n kubeflow centraldashboard
+-n kubeflow jupyter-web-app-jupyter-notebook-role
+-n kubeflow metadata-ui
+-n kubeflow ml-pipeline
+-n kubeflow ml-pipeline-scheduledworkflow
+-n kubeflow ml-pipeline-ui
+-n kubeflow seldon-leader-election-role
+-n kubeflow seldon-manager-cm-role

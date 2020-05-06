@@ -1,0 +1,2 @@
+-n istio-system --all
+-n kubeflow --all

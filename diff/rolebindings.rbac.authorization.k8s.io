@@ -1,0 +1,12 @@
+-n istio-system istio-ingressgateway-sds
+-n knative-serving custom-metrics-auth-reader
+-n kube-system cert-manager-cainjector:leaderelection
+-n kube-system cert-manager-webhook:webhook-authentication-reader
+-n kube-system cert-manager:leaderelection
+-n kubeflow centraldashboard
+-n kubeflow jupyter-web-app-jupyter-notebook-role-binding
+-n kubeflow metadata-ui
+-n kubeflow ml-pipeline
+-n kubeflow ml-pipeline-ui
+-n kubeflow seldon-leader-election-rolebinding
+-n kubeflow seldon-manager-cm-rolebinding

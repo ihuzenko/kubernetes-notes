@@ -1,0 +1,7 @@
+-n istio-system cluster-local-gateway
+-n istio-system istio-egressgateway
+-n istio-system istio-galley
+-n istio-system istio-ingressgateway
+-n istio-system istio-pilot
+-n istio-system istio-policy
+-n istio-system istio-telemetry

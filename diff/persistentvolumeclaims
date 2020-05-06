@@ -1,0 +1,4 @@
+katib-mysql -n kubeflow
+metadata-mysql -n kubeflow
+minio-pv-claim -n kubeflow
+mysql-pv-claim -n kubeflow
