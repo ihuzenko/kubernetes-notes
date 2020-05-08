@@ -32,7 +32,6 @@ katib-controller
 katib-ui
 kfserving-proxy-rolebinding
 knative-serving-controller-admin
-kubeflow-operator
 manager-rolebinding
 meta-controller-cluster-role-binding
 ml-pipeline-persistenceagent
