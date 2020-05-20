@@ -11,3 +11,4 @@ for resource in "deployments.apps" "replicasets.apps" "services" "persistentvolu
 printf "\n=======================Cleaning up diff/$resource ==============\n"
 while read in; do echo "kubectl delete $resource $in";kubectl delete $resource --timeout=60s $in; done < ./diff/$resource
 done;
+./knsk.sh --delete-all
